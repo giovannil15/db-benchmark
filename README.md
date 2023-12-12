@@ -1,2 +1,0 @@
-# db-benchmark
-Database Benchmark
