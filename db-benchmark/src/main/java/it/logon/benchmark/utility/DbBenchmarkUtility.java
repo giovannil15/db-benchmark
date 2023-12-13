@@ -15,7 +15,7 @@ public class DbBenchmarkUtility {
 
         double avgExecutionTime = (double) totalExecutionTime / numberOfStatements;
 
-        System.out.println("%n" + statement + " Benchmark Results:");
+        System.out.println("\n" + statement + " Benchmark Results:");
         System.out.println("|                 |     Value [ms]   |    Value [ns]    |");
         System.out.println("|-----------------|------------------|------------------|");
         System.out.printf(PRINTFORMAT, "Total Time", totalExecutionTime,
